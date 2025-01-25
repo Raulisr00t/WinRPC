@@ -30,11 +30,11 @@ WinRPC/
 ├── calculator.idl            # MIDL Interface Definition Language file
 └── README.md                 # Project documentation
 
-# Compile the Server
+## Compile the Server
 
 Open the Server/main.cpp file in Visual Studio and build the project. The server will listen for incoming RPC requests and provide the Add function.
 
-# Compile the Client
+## Compile the Client
 
 ### Open the Client/main.cpp file in Visual Studio and build the project. The client will connect to the server, invoke the Add function, and display the result.
 ## How It Works
