@@ -41,9 +41,11 @@ Open the Server/main.cpp file in Visual Studio and build the project. The server
 1. Server-Side
 
 ### The server uses RpcServerUseProtseqEp to bind to the ncalrpc protocol sequence and listens for incoming requests using RpcServerListen. When a request comes in, it calls the Add function, which simply adds two integers and returns the result.
+
 ## 2. Client-Side
 
 ### The client creates a binding string using RpcStringBindingCompose, connects to the server using RpcBindingFromStringBinding, and invokes the Add function with two integers.
+
 ## 3. Communication
 ```notepad
     Protocol: ncalrpc (local communication)
